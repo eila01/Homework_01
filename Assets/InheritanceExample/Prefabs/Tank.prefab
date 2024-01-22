@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ed55b53d61272e4baf0b351757468fa, type: 2}
+  - {fileID: 2100000, guid: e58e1630c2435ab47b8be863356243dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,7 +144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ed55b53d61272e4baf0b351757468fa, type: 2}
+  - {fileID: 2100000, guid: e58e1630c2435ab47b8be863356243dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -261,7 +261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ed55b53d61272e4baf0b351757468fa, type: 2}
+  - {fileID: 2100000, guid: e58e1630c2435ab47b8be863356243dd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -294,9 +294,9 @@ GameObject:
   - component: {fileID: 4549945117582617888}
   - component: {fileID: 4549945117582617917}
   - component: {fileID: 4549945117582617889}
-  - component: {fileID: 8652234719834342906}
+  - component: {fileID: 359426988305359438}
   m_Layer: 0
-  m_Name: Charger
+  m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -347,7 +347,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8652234719834342906
+--- !u!114 &359426988305359438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,12 +356,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4549945117582617916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff6ce1d98859b324b8f7be2510a1c5c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 29c95365ab0d64149bfd9457ccc396db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 3
   _deathSound: {fileID: 8300000, guid: 3e3e3e5716c2533409755571490cc2c4, type: 3}
   _hitSound: {fileID: 8300000, guid: eeb3bcaf9a1e08b4ca2540b8b4157f6b, type: 3}
-  MoveSpeed: 0.1
-  Spawnpoint: {fileID: 4549945117582617888}
-  prefab: {fileID: 4549945117582617916, guid: 4423772096c4cd94ea9b663cb510ae2e, type: 3}
+  MoveSpeed: 0.05
